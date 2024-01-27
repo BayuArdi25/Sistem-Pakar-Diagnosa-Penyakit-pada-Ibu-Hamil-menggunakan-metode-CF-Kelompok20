@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Admin.EditDataRule">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/editrulkembali"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/bck"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EDIT/HAPUS DATA RULES"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="24dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID RULE"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:textColor="#D9017A"
+                android:shadowColor="@color/black"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="@drawable/editcard"
+                android:id="@+id/spineditrul"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID PENYAKIT"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="5dp"
+                android:textColor="#D9017A"
+                android:shadowColor="@color/black"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="@drawable/editcard"
+                android:id="@+id/spineditpnyrul"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID GEJALA"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="5dp"
+                android:textColor="#D9017A"
+                android:shadowColor="@color/black"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="@drawable/editcard"
+                android:id="@+id/spineditgjlrul"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NILAI CF"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="5dp"
+                android:textColor="#D9017A"
+                android:shadowColor="@color/black"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/editcard"
+                android:id="@+id/editnilairul"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="16dp"
+                android:paddingStart="10dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buteditrule"
+                    android:layout_width="170dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/cusbut"
+                    android:text="EDIT"
+                    android:textAlignment="center"
+                    android:textColor="#025F00"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/buthapusrule"
+                    android:layout_width="170dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/cusbut"
+                    android:text="HAPUS"
+                    android:textAlignment="center"
+                    android:textColor="#FF0000"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mom Diagnoser</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="mungkin_tidak">Mungkin Tidak</string>
+    <string name="mungkin">Mungkin</string>
+    <string name="kemungkinan_besar">Kemungkinan Besar</string>
+    <string name="hampir_pasti">Hampir Pasti</string>
+    <string name="pasti">Pasti</string>
+    <string name="startapp_app_id">211906879</string>
+    <string name="tentang">Aplikasi Diagnosa Penyakit Kehamilan merupakan Sebuah aplikasi yang dirancang untuk membantu ibu hamil dalam mendiagnosis penyakit yang dialaminya. Aplikasi ini telah di program dengan mengadopsi pengetahuan dan aturan pakar sehingga dijamin keakuratannya, mudah digunakan, informatif, dan terjangkau. Aplikasi ini dapat menjadi alternatif bagi ibu hamil yang tidak memiliki akses ke dokter kandungan.</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tabusername"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/bodicell"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tabpassword"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/bodicell"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tabnamaakun"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/bodicell"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tabalamat"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/bodicell"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tabnohp"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/bodicell"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tablevel"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/bodicell"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tabtanggal"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/bodicell"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logoapk"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/logoapk"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SispakKehamilan"
+        tools:targetApi="34">
+        <activity
+            android:name=".Admin.EditDataAkun"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.TambahAkun"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.KelolaAkun"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.EditDataRule"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.TambahDataRule"
+            android:exported="false" />
+        <activity
+            android:name=".User.TentangPakar"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.DataRules"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.EditDataGejala"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.TambahDataGejala"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.DataGejala"
+            android:exported="false" />
+        <activity
+            android:name=".User.Tentang"
+            android:exported="false" />
+        <activity
+            android:name=".Dokter.HapusUser"
+            android:exported="false" />
+        <activity
+            android:name=".Dokter.RiwayatPasien"
+            android:exported="false" />
+        <activity
+            android:name=".User.UbahSandi"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User.HasilDiagnosa"
+            android:exported="false" />
+        <activity
+            android:name=".User.Diagnosa"
+            android:exported="false" />
+        <activity
+            android:name=".User.DetailPenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".User.InfoPenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserHome"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.EditDataPenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.TambahDataPenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.DataPenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".Dokter.Register"
+            android:exported="false" />
+        <activity
+            android:name=".Dokter.DokterHome"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="startapp_app_id" />
+    </application>
+
+</manifest>

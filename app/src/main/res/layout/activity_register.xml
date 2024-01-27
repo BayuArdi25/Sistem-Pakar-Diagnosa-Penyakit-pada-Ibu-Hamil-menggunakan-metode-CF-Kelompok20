@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dokter.Register"
+    android:orientation="vertical"
+    android:background="@drawable/bgregis">
+
+    <ImageButton
+        android:id="@+id/butkemregis"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/bck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="296dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/editcard"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Loginn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="REGISTRASI"
+                android:textAlignment="center"
+                android:textColor="#BD2086"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/namaleng"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/editcard"
+                android:drawableStart="@drawable/namaa"
+                android:drawablePadding="10dp"
+                android:hint="Nama Lengkap"
+                android:padding="5dp"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/alamat"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/editcard"
+                android:drawableStart="@drawable/home"
+                android:drawablePadding="10dp"
+                android:hint="Alamat"
+                android:padding="3dp"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nohp"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/editcard"
+                android:drawableStart="@drawable/telep"
+                android:drawablePadding="10dp"
+                android:hint="Nomor HP"
+                android:padding="3dp"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/usernameuser"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/editcard"
+                android:drawableStart="@drawable/user"
+                android:drawablePadding="10dp"
+                android:hint="Username"
+                android:padding="3dp"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/passuser"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/editcard"
+                android:drawableStart="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tomregis"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/cusbut"
+                android:text="REGIS"
+                android:textAlignment="center"
+                android:textColor="#BD2086"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

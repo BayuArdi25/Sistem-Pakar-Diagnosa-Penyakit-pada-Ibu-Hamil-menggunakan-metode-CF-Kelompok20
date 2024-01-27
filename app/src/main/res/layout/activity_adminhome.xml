@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmenudok"
+    tools:context=".Admin.AdminHome">
+
+    <TextView
+        android:id="@+id/titadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:text="HALO DOKTER"
+        android:textColor="#BD2086"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imaoutadm"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:src="@drawable/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/butdatpen"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/cusbut"
+        android:text="DATA PENYAKIT"
+        android:textAlignment="center"
+        android:textColor="#BD2086"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/butdatgej"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/cusbut"
+        android:text="DATA GEJALA"
+        android:textAlignment="center"
+        android:textColor="#BD2086"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butdatpak"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/cusbut"
+        android:text="DATA PAKAR"
+        android:textAlignment="center"
+        android:textColor="#BD2086"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butkeloakun"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/cusbut"
+        android:text="KELOLA SEMUA AKUN"
+        android:textAlignment="center"
+        android:textColor="#BD2086"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
